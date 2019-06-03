@@ -181,7 +181,12 @@ nav {
 
 .top-row {
   display: flex;
+  justify-content: space-between;
 }
+
+.top-row :nth-child(2){
+    padding: 0px 0 0 10px;
+  }
 
 .bottom-row {
   display: flex;
@@ -197,7 +202,8 @@ nav {
 }
 
 .middle-img {
-  margin: 40px 0;
+  margin: 47px 0;
+  width: 100%;
 }
 
 .bottom-row {
